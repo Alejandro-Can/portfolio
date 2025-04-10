@@ -13,7 +13,10 @@ export default defineConfig([
       "react/react-in-jsx-scope": "off",
       "eol-last": ["error", "always"],
       "semi": ["error", "never"],
-      "react/jsx-no-target-blank": "off"
+      "react/jsx-no-target-blank": "off",
+      "react/prop-types": "off",
+      "indent": ["error", 2],
+      "space-before-function-paren": ["error", "never"]
     }
   }
 ])
